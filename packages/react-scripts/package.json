@@ -1,5 +1,5 @@
 {
-  "name": "react-scripts",
+  "name": "react-scripts-with-ssr",
   "version": "2.1.3",
   "description": "Configuration and scripts for Create React App.",
   "repository": "facebook/create-react-app",
@@ -20,7 +20,7 @@
     "utils"
   ],
   "bin": {
-    "react-scripts": "./bin/react-scripts.js"
+    "react-scripts-ssr": "./bin/react-scripts.js"
   },
   "types": "./lib/react-app.d.ts",
   "dependencies": {
@@ -61,6 +61,7 @@
     "postcss-safe-parser": "4.0.1",
     "react-app-polyfill": "^0.2.0",
     "react-dev-utils": "^7.0.1",
+    "require-from-string": "^2.0.2",
     "resolve": "1.9.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
